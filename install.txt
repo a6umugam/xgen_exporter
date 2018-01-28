@@ -1,0 +1,11 @@
+1. Copy exportSequenceXgen.py to your user/maya folder for example "C:\Users\MyUser\Documents\maya\2018\scripts"
+2. Run Maya 2018
+3. In maya go to Windows->General Editors->Script Editor
+4. Create python tab and copy this text:
+
+import exportSequenceXgen
+reload(exportSequenceXgen)
+exportSequenceXgen.ex.show()
+
+5. Select whole text and with middle mouse button pressed drag'n'drop it on the shelf
+6.Done
